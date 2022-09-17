@@ -8,9 +8,9 @@
 	background-color: aqua;
 	text-align: center;
 }
-aside {
+/* aside {
 	background-color: aliceblue;
-}
+} */
 nav {
 	background-color: #24252a;
 	font-weight: 500;
@@ -23,11 +23,13 @@ nav {
 	padding: 30px 10%;
 	cursor: pointer;
 }
-main {
+.main {
 	background-color: whitesmoke;
 }
 .footer {
 	background-color: rgb(94, 88, 88);
+	color: white;
+	text-align: center;
 }
 .lista {
 	list-style: none;
@@ -46,4 +48,30 @@ main {
 a {
 	text-decoration: none;
 	color: whitesmoke;
+}
+div.banner{
+    flex:1;
+}
+div.banner.left{
+    background-color: bisque;
+}
+
+div.banner.right{
+    background-color:darksalmon;
+}
+
+section.content{
+    flex:3;
+	text-align: center;
+}
+section.main{
+    display:flex;
+    flex-direction: row;
+    min-height:100vh;
+}
+section.content2 {
+	text-align: center;
+}
+div.menu{
+	text-align: center;
 }
