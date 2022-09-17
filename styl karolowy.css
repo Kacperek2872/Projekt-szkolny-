@@ -50,7 +50,7 @@ section.content{
     flex:3;
 }
 
-nav{
+/* nav{
     background-color: aquamarine;
     min-height: 50px;
     display:flex;
@@ -71,8 +71,8 @@ nav ul li a{
     padding:5px;
     margin:10px;
     background-color: bisque;
-}
-
+} */
+/* 
 img[alt="zwiazek"]{
 
-}
+} */
