@@ -3,14 +3,17 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+
 }
 .header {
 	background-color: aqua;
 	text-align: center;
+	min-height: 10vh;
+	display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
-/* aside {
-	background-color: aliceblue;
-} */
 nav {
 	background-color: #24252a;
 	font-weight: 500;
@@ -67,7 +70,7 @@ section.content{
 section.main{
     display:flex;
     flex-direction: row;
-    min-height:100vh;
+    min-height:90vh;
 }
 section.content2 {
 	text-align: center;
