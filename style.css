@@ -66,6 +66,7 @@ div.banner.right{
 section.content{
     flex:3;
 	text-align: center;
+	display:flex;
 }
 section.main{
     display:flex;
@@ -74,6 +75,7 @@ section.main{
 }
 section.content2 {
 	text-align: center;
+	height:100%;
 }
 div.menu{
 	text-align: center;
