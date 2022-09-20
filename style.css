@@ -67,6 +67,7 @@ section.content{
     flex:3;
 	text-align: center;
 	display:flex;
+	flex-direction: column;
 }
 section.main{
     display:flex;
