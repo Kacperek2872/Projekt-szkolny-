@@ -79,3 +79,7 @@ section.content2 {
 div.menu{
 	text-align: center;
 }
+.tabeleczka {
+border:1px solid black;
+border-spacing:1px solid black ;
+}
