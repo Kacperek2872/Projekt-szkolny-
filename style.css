@@ -120,4 +120,8 @@ a.picture {
     display: grid;
     justify-items: center;
     gap: 10px;
+	transition: all 0.3s ease 0s;
+}
+a.picture:hover {
+	color: #0088a9;
 }
