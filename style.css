@@ -125,3 +125,8 @@ a.picture {
 a.picture:hover {
 	color: #0088a9;
 }
+.repo p  {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}
